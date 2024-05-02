@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- подключаем TailwindCSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- подключаем собственные стили -->
+    <link rel="stylesheet" href="./style/main.css">
+    <!-- подключаем шрифты Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body class="">
+    <!-- #app — контейнер для нашего веб-приложения -->
+    <div id="app" class="container mx-auto grid grid-cols-12 auyo-rows-max">
+        <header class="col-span-12 h-20 flex justify-between items-center pl-2 bg-slate-600 text-slate-50">
+            <h2 class="text-3xl">Иван Емельянов</h2>
+            <nav class="flex text-xl *:py-4 *:px-4 hover:*:bg-slate-800">
+                <a href="#" class="h-20 flex items-center">Блог</a>
+                <a href="#" class="h-20 flex items-center">Домашние задания</a>
+                <a href="#" class="h-20 flex items-center">Портфолио</a>
+                <a href="#" class="h-20 flex items-center">Обо мне</a>
+                <a href="#" class="h-20 flex items-center">Контакты</a>
+            </nav>
+        </header>
+        <main class="bg-teal-900 col-span-8 h-screen">
+        </main>
+        <aside class="bg-teal-500 col-span-4">
+
+        </aside>
+        <footer class="col-span-12 h-max pl-2 py-4 bg-slate-600 text-slate-50">
+            <h3 class="text-xl">Academy TOP © 2024</h3>
+        </footer>
+    </div>
+</body>
+</html>
